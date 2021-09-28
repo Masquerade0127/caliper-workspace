@@ -1,0 +1,90 @@
+- label: create data of blood donate - 1000 request
+  description: create data benchmark for 1000 request
+  txDuration: 300
+  rateControl: { type: fixed-rate, opts: { tps: 1000 } }
+  workload:
+    {
+      module: workload/createData.js,
+      arguments: { donorID: 300000, contractId: blood },
+    }
+- label: create data of blood donate - 2000 request
+  description: create data benchmark for 2000 request
+  txDuration: 300
+  rateControl: { type: fixed-rate, opts: { tps: 2000 } }
+  workload:
+    {
+      module: workload/createData.js,
+      arguments: { donorID: 300000, contractId: blood },
+    }
+- label: create data of blood donate - 3000 request
+  description: create data benchmark for 3000 request
+  txDuration: 300
+  rateControl: { type: fixed-rate, opts: { tps: 3000 } }
+  workload:
+    {
+      module: workload/createData.js,
+      arguments: { donorID: 300000, contractId: blood },
+    }
+- label: create data of blood donate - 4000 request
+  description: create data benchmark for 4000 request
+  txDuration: 300
+  rateControl: { type: fixed-rate, opts: { tps: 4000 } }
+  workload:
+    {
+      module: workload/createData.js,
+      arguments: { donorID: 300000, contractId: blood },
+    }
+- label: create data of blood donate - 5000 request
+  description: create data benchmark for 5000 request
+  txDuration: 300
+  rateControl: { type: fixed-rate, opts: { tps: 5000 } }
+  workload:
+    {
+      module: workload/createData.js,
+      arguments: { donorID: 300000, contractId: blood },
+    }
+- label: create data of blood donate - 6000 request
+  description: create data benchmark for 6000 request
+  txDuration: 300
+  rateControl: { type: fixed-rate, opts: { tps: 6000 } }
+  workload:
+    {
+      module: workload/createData.js,
+      arguments: { donorID: 300000, contractId: blood },
+    }
+- label: create data of blood donate - 7000 request
+  description: create data benchmark for 7000 request
+  txDuration: 300
+  rateControl: { type: fixed-rate, opts: { tps: 7000 } }
+  workload:
+    {
+      module: workload/createData.js,
+      arguments: { donorID: 300000, contractId: blood },
+    }
+- label: create data of blood donate - 8000 request
+  description: create data benchmark for 8000 request
+  txDuration: 300
+  rateControl: { type: fixed-rate, opts: { tps: 8000 } }
+  workload:
+    {
+      module: workload/createData.js,
+      arguments: { donorID: 300000, contractId: blood },
+    }
+- label: create data of blood donate - 9000 request
+  description: create data benchmark for 9000 request
+  txDuration: 300
+  rateControl: { type: fixed-rate, opts: { tps: 9000 } }
+  workload:
+    {
+      module: workload/createData.js,
+      arguments: { donorID: 300000, contractId: blood },
+    }
+- label: create data of blood donate - 10000 request
+  description: create data benchmark for 10000 request
+  txDuration: 300
+  rateControl: { type: fixed-rate, opts: { tps: 10000 } }
+  workload:
+    {
+      module: workload/createData.js,
+      arguments: { donorID: 300000, contractId: blood },
+    }
